@@ -32,7 +32,7 @@ export default [
     output: [
       {
         file: pkg.main,
-        format: 'cjs',
+        format: 'esm',
       },
       {
         file: 'dist/index.umd.js',
@@ -54,7 +54,7 @@ export default [
     output: [
       {
         file: 'asm.js',
-        format: 'cjs',
+        format: 'esm',
       },
       {
         file: 'dist/asm.umd.js',
